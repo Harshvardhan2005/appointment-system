@@ -1,0 +1,193 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.appointments:backend >----------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 12 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/controller/AppointmentController.java:[22,38] variable appointmentService not initialized in the default constructor
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[31,24] cannot find symbol
+  symbol:   method getAppointmentDate()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[31,54] cannot find symbol
+  symbol:   method getTimeSlot()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[38,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[39,58] cannot find symbol
+  symbol:   method builder()
+  location: class com.appointments.backend.model.User
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[40,38] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[41,39] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[42,39] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[47,82] cannot find symbol
+  symbol:   method getAppointmentDate()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[50,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[52,41] cannot find symbol
+  symbol:   method getAppointmentDate()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[53,34] cannot find symbol
+  symbol:   method getTimeSlot()
+  location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[61,87] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.appointments.backend.model.User
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[61,120] cannot find symbol
+  symbol:   method getAppointmentDate()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[61,164] cannot find symbol
+  symbol:   method getTimeSlot()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[77,20] cannot find symbol
+  symbol:   method setStatus(com.appointments.backend.model.Status)
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[81,62] cannot find symbol
+  symbol:   method getUser()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[91,50] cannot find symbol
+  symbol:   method getQueueNumber()
+  location: variable app of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[92,40] cannot find symbol
+  symbol:   method getTimeSlot()
+  location: variable app of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[95,27] incompatible types: java.lang.Object cannot be converted to java.util.Map<java.lang.String,java.lang.Object>
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[103,35] cannot find symbol
+  symbol:   method builder()
+  location: class com.appointments.backend.dto.AppointmentResponse
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[104,32] cannot find symbol
+  symbol:   method getId()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[105,42] cannot find symbol
+  symbol:   method getUser()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[106,43] cannot find symbol
+  symbol:   method getUser()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[107,45] cannot find symbol
+  symbol:   method getAppointmentDate()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[108,38] cannot find symbol
+  symbol:   method getTimeSlot()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[109,36] cannot find symbol
+  symbol:   method getStatus()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[110,41] cannot find symbol
+  symbol:   method getQueueNumber()
+  location: variable appointment of type com.appointments.backend.model.Appointment
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.596 s
+[INFO] Finished at: 2026-04-19T22:18:42+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/controller/AppointmentController.java:[22,38] variable appointmentService not initialized in the default constructor
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[31,24] cannot find symbol
+[ERROR]   symbol:   method getAppointmentDate()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[31,54] cannot find symbol
+[ERROR]   symbol:   method getTimeSlot()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[38,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[39,58] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.appointments.backend.model.User
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[40,38] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[41,39] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[42,39] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[47,82] cannot find symbol
+[ERROR]   symbol:   method getAppointmentDate()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[50,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[52,41] cannot find symbol
+[ERROR]   symbol:   method getAppointmentDate()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[53,34] cannot find symbol
+[ERROR]   symbol:   method getTimeSlot()
+[ERROR]   location: variable request of type com.appointments.backend.dto.AppointmentRequest
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[61,87] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.appointments.backend.model.User
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[61,120] cannot find symbol
+[ERROR]   symbol:   method getAppointmentDate()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[61,164] cannot find symbol
+[ERROR]   symbol:   method getTimeSlot()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[77,20] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.appointments.backend.model.Status)
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[81,62] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[91,50] cannot find symbol
+[ERROR]   symbol:   method getQueueNumber()
+[ERROR]   location: variable app of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[92,40] cannot find symbol
+[ERROR]   symbol:   method getTimeSlot()
+[ERROR]   location: variable app of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[95,27] incompatible types: java.lang.Object cannot be converted to java.util.Map<java.lang.String,java.lang.Object>
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[103,35] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.appointments.backend.dto.AppointmentResponse
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[104,32] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[105,42] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[106,43] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[107,45] cannot find symbol
+[ERROR]   symbol:   method getAppointmentDate()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[108,38] cannot find symbol
+[ERROR]   symbol:   method getTimeSlot()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[109,36] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] /C:/Users/usern/.gemini/antigravity/scratch/appointment-system/backend/src/main/java/com/appointments/backend/service/AppointmentService.java:[110,41] cannot find symbol
+[ERROR]   symbol:   method getQueueNumber()
+[ERROR]   location: variable appointment of type com.appointments.backend.model.Appointment
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

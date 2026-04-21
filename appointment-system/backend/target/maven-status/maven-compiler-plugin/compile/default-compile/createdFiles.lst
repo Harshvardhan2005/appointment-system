@@ -1,0 +1,12 @@
+com\appointments\backend\model\User.class
+com\appointments\backend\model\Status.class
+com\appointments\backend\controller\AppointmentController.class
+com\appointments\backend\model\Appointment.class
+com\appointments\backend\repository\AppointmentRepository.class
+com\appointments\backend\service\AppointmentService.class
+com\appointments\backend\model\Role.class
+com\appointments\backend\dto\AppointmentRequest.class
+com\appointments\backend\dto\AppointmentResponse.class
+com\appointments\backend\exception\GlobalExceptionHandler.class
+com\appointments\backend\repository\UserRepository.class
+com\appointments\backend\BackendApplication.class
