@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_BASE = 'http://localhost:8081/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8082/api';
 
 export default function ManageBookings() {
   const [phone, setPhone] = useState('');
